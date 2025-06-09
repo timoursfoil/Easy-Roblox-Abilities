@@ -1,3 +1,5 @@
+--Normal Script. To be placed in ServerScriptService > Scripts (folder)
+
 local ReplicatedStorage = game:GetService("ReplicatedStorage") -- Replicated Storage
 local Events = ReplicatedStorage:WaitForChild("Events") -- Events folder for better storage
 local ServerScriptService = game:GetService("ServerScriptService") -- Server Script Service
