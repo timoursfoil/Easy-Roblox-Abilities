@@ -2,7 +2,7 @@
 
 A modular and extensible system for implementing character abilities in Roblox, designed for action or RPG-style games. This module handles animation playback, hitbox-based damage detection, cooldown management, and prevents input spamming through a built-in debounce system.
 
- Features
+## Features
 🔁 Cooldowns and Debounce logic to prevent ability spamming
 
 🎞️ Animation support via Roblox animation assets
@@ -11,7 +11,8 @@ A modular and extensible system for implementing character abilities in Roblox, 
 
 🧱 Easy to expand with additional abilities via two Lua table
 
-How to use it:
+## How to use it:
+
 Create these new folders:
 "Events" in ReplicatedStorage
 "Modules" in ServerScriptService
