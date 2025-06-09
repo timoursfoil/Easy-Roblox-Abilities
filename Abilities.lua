@@ -1,3 +1,5 @@
+--Local Script. To be placed in StarterPlayerScripts.
+
 local Players = game:GetService("Players") -- Players Service
 local player = Players.LocalPlayer -- Your player
 local UserInputService = game:GetService("UserInputService") -- For tracking User Inputs
