@@ -1,3 +1,5 @@
+--ModuleScript. To be placed in ServerScriptService > Modules (folder)
+
 local Players = game:GetService("Players") -- Player Service
 local ServerScriptService = game:GetService("ServerScriptService") -- ServerScriptService for the Server Scripts
 local Events = game:GetService("ReplicatedStorage"):WaitForChild("Events") -- Folder of the events
