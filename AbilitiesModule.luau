@@ -66,6 +66,7 @@ function abilities.KickAbility(player: Player) -- Function to Kick
 
 	for _, thing in pairs(workspace:GetPartsInPart(hitbox)) do
 		if thing.Parent:FindFirstChild("Humanoid") and not touched[thing.Parent] and thing.Parent ~= char then
+			-- if Players:GetPlayerFromCharacter(thing.Parent) then return end (optional line to make it not attack other players)
 			local humanoid = thing.Parent:FindFirstChild("Humanoid")
 			humanoid:TakeDamage(ability.Damage)
 			table.insert(touched, thing.Parent)
